@@ -6,7 +6,7 @@ int top = -1; // global variable to keep track of top index
 
 void push(int s[], int data) {
     if (top == MAX - 1) {
-        cout << "Stack overflow" << endl;
+        cout << "Stack is Overflow" << endl;
     } else {
         top++;
         s[top] = data;
